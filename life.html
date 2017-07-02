@@ -1,0 +1,433 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>孔清</title>
+<style type="text/css">
+body{
+	background:#FFF;
+	margin:0px;
+	}
+#wrap {
+	position:relative;
+    margin:0px auto;
+	width:1024px;
+	height:750px;
+}
+
+#logo {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:184px;
+	height:104px;
+}
+
+#shipin-02 {
+	position:absolute;
+	left:184px;
+	top:0px;
+	width:840px;
+	height:52px;
+}
+#shipin-02 ul {
+	width:300px;
+	height:50px;
+	list-style:none;
+}
+	
+#shipin-02 li {
+	margin:0px 10px;
+	padding:5px;
+	float:left;
+	font:16px 宋体;
+	text-align:center;
+	border:1px solid #666;}
+
+#shipin-02 li a:hover {color:#09F;}
+
+#shipin-03 {
+	position:absolute;
+	left:184px;
+	top:52px;
+	width:313px;
+	height:66px;
+}
+
+#leader1 {
+	position:absolute;
+	left:497px;
+	top:52px;
+	width:97px;
+	height:66px;
+	background:url(images/leader1.jpg);
+}
+
+#shipin-05 {
+	position:absolute;
+	left:594px;
+	top:52px;
+	width:38px;
+	height:66px;
+}
+
+#leader2 {
+	position:absolute;
+	left:632px;
+	top:52px;
+	width:97px;
+	height:66px;
+	background:url(images/leader2.jpg);
+}
+
+#shipin-07 {
+	position:absolute;
+	left:729px;
+	top:52px;
+	width:38px;
+	height:66px;
+}
+
+#leader3 {
+	position:absolute;
+	left:767px;
+	top:52px;
+	width:97px;
+	height:66px;
+	background:url(images/leader3.jpg);
+}
+
+#shipin-09 {
+	position:absolute;
+	left:864px;
+	top:52px;
+	width:160px;
+	height:66px;
+}
+
+#shipin-10 {
+	position:absolute;
+	left:0px;
+	top:104px;
+	width:184px;
+	height:14px;
+}
+
+#shipin-11 {
+	position:absolute;
+	left:0px;
+	top:118px;
+	width:128px;
+	height:632px;
+}
+
+#txt1 {
+	position:absolute;
+	left:128px;
+	top:118px;
+	width:196px;
+	height:129px;
+	background:url(images/txt1.jpg);
+	border-right:1px dotted #FFF;	
+}
+#life {
+	position:absolute;
+	left:325px;
+	top:118px;
+	width:597px;
+	height:516px;
+	background:url(images/shipin.jpg)
+}
+#couplet{
+	width:570px;
+	height:250px;
+	margin:15px;
+	}
+#lcoup1,#lcoup2,#rcoup1,#rcoup2{
+	width:100px;
+	height:200px;
+	margin-left:20px;
+	margin:20px;
+	float:left;}
+
+
+#couplet button {
+	border:1px solid #ccc; 
+    background:rgba(102,102,102,.2);
+	width:18px; height:18px;
+	font-size:16px;
+	text-align:center; line-height:16px;
+	padding:0px 0px 2px 2px;
+	}
+#think {
+	width:250px;
+	height:250px;
+	margin:10px;}
+
+#think button { width:62px; height:33px; float:left;background:rgba(255,255,255,.3);border:0px;}
+#think div { width:245px; height:200px;
+             background:rgba(153,204,204,.4);
+			 border:1px solid #CCC; border-radius:5px;			 
+             }
+#think p { font:14px/1.4em 黑体; color:#333; 
+           text-indent:2em; letter-spacing:1px;
+		   margin:0px; padding:15px 5px;
+		  }
+.btnActive { background:#FFF;
+             font-weight:900;
+             color:#030;}
+.divHide { display:none;}
+
+#nTime {
+	position:absolute;
+	top:300px;
+	left:300px;}
+#shipin-14 {
+	position:absolute;
+	left:922px;
+	top:118px;
+	width:102px;
+	height:632px;
+}
+
+#txt2 {
+	position:absolute;
+	left:128px;
+	top:247px;
+	width:196px;
+	height:129px;
+	background:url(images/txt2.jpg);
+	border-right:1px dotted #FFF;
+}
+
+#txt3 {
+	position:absolute;
+	left:128px;
+	top:376px;
+	width:196px;
+	height:129px;
+	background:url(images/txt3.jpg);
+	border-right:1px dotted #FFF;
+}
+
+
+#txt4 {
+	position:absolute;
+	left:128px;
+	top:505px;
+	width:196px;
+	height:129px;
+	background:url(images/txt4.jpg);
+	border-right:1px dotted #FFF;
+}
+
+
+#shipin-18 {
+	position:absolute;
+	left:128px;
+	top:634px;
+	width:794px;
+	height:116px;
+}
+
+h1 {
+	font:18px 黑体;
+	text-align:center;
+	margin-top:40px;
+	}
+a {
+	text-decoration:none;
+	color:#000;
+	}
+#leader1 a:hover,#leader2 a:hover,#leader3 a:hover {color:#FFF;}
+	
+p {font:16px 宋体;}
+#txt1 img,#txt2 img,#txt3 img,#txt4 img {
+	width:155px;
+	height:105px;
+	border:1px solid #09F;
+	margin:8px 15px;
+	}
+
+#jianyan {
+	width:100px;
+	height:120px;
+	border:1px solid #999;
+	margin:10px;}
+#jianyan img {
+	margin:5px;
+	}
+h3 {
+	font:18px 宋体;
+	text-align:center;
+	margin-top:0px;}
+h3 a:hover {color:#900;}
+.moren {color:#C60;}
+
+
+
+</style>
+<script type="text/javascript">
+window.onload = 
+	   function () {
+       var op = document.getElementById("couplet");
+       op.getElementsByTagName("label")[0].onclick = 
+		       function () {
+				   op.style.display = "none";   
+				} 
+	   op.getElementsByTagName("label")[1].onclick = 
+		        function () {
+				   op.style.display = "none";   
+				}
+	   op.getElementsByTagName("label")[2].onclick = 
+		        function () {
+				   op.style.display = "none";   
+				}
+	   op.getElementsByTagName("label")[3].onclick = 
+		        function () {
+				   op.style.display = "none";   
+				}
+		var oWrap = document.getElementById("think");
+		var oBtns =oWrap.getElementsByTagName("button");
+		var oDiv =oWrap.getElementsByTagName("div");
+        for (var i = 0;i < oBtns.length;i++) {
+            oBtns[i].index=i;
+            oBtns[i].onclick = function() {
+            for(var n= 0;n< oBtns.length;n++){
+                         oBtns[n].className = "";
+                         oDiv[n].className = "divHide";
+                     }
+                     this.className = "btnActive";
+                     oDiv[this.index].className = "";
+            }
+            };
+	   }
+	  function dTime () {
+		   var nowDate = new Date;
+		   var str ="当前时间是：</br>";
+		   str += nowDate.toLocaleDateString();
+		   str += nowDate.toLocaleTimeString();
+		   var Date2018 =new Date(2018,0,1,0,0,0);
+		   var jiange = Date2018 - nowDate;
+		   str += "<br></br>距离2018年还有：</br>";
+		   var Ss = Math.floor(jiange / 1000);
+		   var Ms = Math.floor( Ss / 60);
+		       Ss = Ss % 60;
+		   var Hs = Math.floor( Ms / 60);
+		       Ms = Ms % 60;
+		   var Ds = Math.floor( Hs /24 );
+		       Hs %= 24;
+		   str += ( Ds + "天");
+		   str += ( Hs + "小时");
+		   str += ( Ms + "分");
+		   str += Ss;
+		   str += "秒";
+		   document.getElementById("nTime").innerHTML = str;
+		  
+	    }
+    var timer01 =setInterval ("dTime()","1000");
+
+</script>
+</head>
+<body>
+
+<div id="wrap">
+	<div id="logo">
+		<img src="images/logo.jpg" alt="logo">
+	</div>
+	<div id="shipin-02">
+	    <ul>
+            <li><a href="home.html">首页</a></li>
+            <li><a href="loading.html">登录</a></li>
+        </ul>
+	</div>
+	<div id="shipin-03">
+		<img src="images/shipin_03.jpg">
+	</div>
+	<div id="leader1">
+		<h1><a href="home1.html" >漫漫修仙路</a></h1>
+	</div>
+	<div id="shipin-05">
+		<img src="images/shipin_05.jpg">
+	</div>
+	<div id="leader2">
+		<h1><a href="life.html" class="moren">生活大杂烩</a></h1>
+	</div>
+	<div id="shipin-07">
+		<img src="images/shipin_07.jpg">
+	</div>
+	<div id="leader3">
+		<h1><a href="shipin.html" >记忆水晶</a></h1>
+	</div>
+	<div id="shipin-09">
+		<img src="images/shipin_09.jpg">
+	</div>
+	<div id="shipin-10">
+		<img src="images/shipin_10.jpg">
+	</div>
+	<div id="shipin-11">
+		<img src="images/shipin_11.jpg">
+	</div>
+	<div id="txt1">
+		<a href="tuku.html"><img src="images/touxiang0.jpg" width="150" height="100" alt="tree"></a>
+	</div>
+	<div id="life">
+        <div id="couplet">
+            <div id="lcoup1">
+                <label><button>&times;</button>关闭</label>
+                <img src="images/c1.jpg">
+            </div>
+            <div id="rcoup1">
+                <label><button>&times;</button>关闭</label>
+                <img src="images/c2.jpg">
+            </div>
+            <div id="lcoup2">
+                <label><button>&times;</button>关闭</label>
+                <img src="images/c3.jpg">
+            </div>
+            <div id="rcoup2">
+                <label><button>&times;</button>关闭</label>
+                <img src="images/c4.jpg">            
+            </div>              
+        </div>
+        <div id="think">
+            <button class="btnActive">事情一</button>
+            <button>事情二</button>
+            <button>事情三</button>
+            <button>事情四</button>
+            <div>
+                <p>
+                对于“插入”选项卡上的库，在设计时都充分考虑了其中的项与文档整体外。</p>              
+            </div>
+            <div class="divHide">
+                <p>在“主页”选项卡上，通过从快速样式库中为所选文本选择。</p>           
+            </div>
+            <div class="divHide">
+                <p>若要更改文档的整体外观，请在“页面布局”选项卡上选择新的</p>
+            </div>
+            <div class="divHide"><p>jianhfhdjfgffjfbvjf的项与文档整体外观的协</p>
+            </div>
+        </div>
+        <div id="nTime">当前时间为：</br></div>   
+    </div>
+	<div id="shipin-14">
+		<div id="jianyan">
+	        <img src="images/dong.gif" width="80" height="80" alt="dong">
+            <h3><a href="jianyan.html">课程建言</a></h3>
+      </div>
+	</div>
+	<div id="txt2">
+		<a href="tuku.html"><img src="images/touxiang2.jpg" width="150" height="100" alt="fish"></a>
+	</div>
+	<div id="txt3">
+        <a href="tuku.html"><img src="images/touxiang3.jpg" width="150" height="100" alt="sun"></a>
+    </div>
+	<div id="txt4">
+        <a href="tuku.html"><img src="images/touxiang4.jpg" width="150" height="100" alt="animals"></a>
+    </div>
+	<div id="shipin-18">
+		<img src="images/shipin_18.jpg">
+	</div>
+</div>
+</body>
+</html>

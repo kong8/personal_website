@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>孔清</title>
+<style type="text/css">
+body{
+	background:#FFF;
+	margin:0px;
+	}
+
+#wrap {
+	position:relative;
+    margin:0px auto;
+	width:1024px;
+	height:750px;
+}
+
+#jianyan-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1024px;
+	height:105px;
+}
+
+#jianyan {
+	position:absolute;
+	left:0px;
+	top:105px;
+	width:1024px;
+	height:591px;
+	background:url(images/jianyan_02.jpg);
+}
+
+#jianyan-03 {
+	position:absolute;
+	left:0px;
+	top:696px;
+	width:1024px;
+	height:72px;
+}
+#jianyan h1 {
+	font:24px 黑体;
+	color:#666;
+	}
+#jianyan p {
+	font:16px/1.5em 宋体;
+	color:#666;
+	}
+#jianyan span {
+	display:inline-block;
+	font:16px 黑体;
+	float:right;
+	color:#666;}
+#jianyan a {
+	display:inline-block;
+	margin-top:10px;
+	color:#09F;
+	font:18px 宋体;}
+ #sidecol {
+	  width:150px;height:180px;background:#A6FBFB;
+	  border:1px solid #aaa;
+	  position:absolute;top:50px;left:-150px;}
+  #sidecol ul {
+	  list-style:none;
+      margin:0; padding:0px;}
+  #sidecol a {
+	  display:block;width:125px;height:25px;
+	  font:16px/25px 微软雅黑;color:#F96;
+	  text-decoration:none;text-align:center;
+	  border-bottom:1px solid #ffc;
+	  magin-left:25px;
+	  margin-top:3px;}
+  #sidecol span {
+	  width:20px; height:100px;
+	  background:#FFC;
+	  border:1px solid #aaa;
+	  border-radius:3px;
+	  position:absolute;
+	  right:-22px;
+	  margin-top:35px;
+	  padding-top:12px;
+	  color:#666;
+	  font:16px 微软雅黑;
+	  text-align:center;
+	  }
+
+</style>
+<script type="text/javascript">
+window.onload=function () {
+	function star(x,b){
+			clearInterval(timer05);
+			timer05 =setInterval(function() {
+			if (oDivside.offsetLeft == x ){
+				clearInterval(timer05)
+				} else {
+				oDivside.style.left = oDivside.offsetLeft + b + "px";  
+				}
+			},30);	
+		}
+		
+		var timer05 = null;
+		var oDivside = document.getElementById("sidecol");
+		var oSpan = oDivside.getElementsByTagName("span")[0];
+		oDivside.onmouseover = function(){star(0,5);}
+	    oDivside.onmouseout = function (){star(-150,-10);}
+
+}
+</script>
+</head>
+<body>
+
+<div id="wrap">
+	<div id="jianyan-01">
+		<img src="images/jianyan_01.jpg" >
+	</div>
+	<div id="jianyan">
+		<h1>课程建言</h1>
+        <p>  王老师：</p>
+        <p>作为一名大三学生，我将面临的不仅是繁重的大学课程，还有我人生又一个新的开始——           就业。《商务网站开发》这门课程为我们的求学到就业起到了一个很好的作用，使我们           不再对就业，担心自己什么都不会让我们，而是有了更充分的准备去迎接新的挑战。</p>
+        <p>课程刚开始，大家都对本学期唯一一个技术性较强的学科很感兴趣。老师也不负众望，           一步一步，仔仔细细的教导我们写代码。从简单的鼠标事件，到一个商务网站的开发。           我们从中学了很多。也渐渐窥测到了市场的行情。</p>
+        <p>电子商务是很杂的学科，往往什么都懂点，什么又都不懂。要学精不是一个简单的事，           从大一开始，每个同学都在探寻自己的就业方向，技术类，商务类。选择技术类，又在           想美工，前端，运营等。商务类更不用说，这是电子商务的利，也是弊。这门课程从老           师的角度出发，是希望我们能够走美工道路，我也了解的到有部分同学想走前端开发和           运营的道路，但困难重重。所以我们都希望老师能教的多些，教的深点。</p>
+        <p>下面提出自己的建议和看法，希望对以后这门课程的教学有些帮助。</p>
+        <p>希望老师的课程进度能放快一些，，虽然一步一步教能够每个人都能动起手来，提高了           课堂积极性，但是既然已选择了专业方向，且节节课都去上的人，自然希望能多学点，           学深一点。老师的进度对于这些同学来说有些慢。</p>
+        <p>既然是技术方向，希望老师能够多教一些前端开发的框架和工具，这能丰富课程的内容。</p>
+        <p>最后，再次祝您的课程越办越好！</p>
+        <span>电商四班孔清</span>
+        <a href="home1.html">>>返回</a>
+	</div>
+	<div id="jianyan-03">
+		<img src="images/jianyan_03.jpg" >
+	</div>
+</div>
+<div id="sidecol">
+        <span>导航目录</span>
+        <ul>
+            <li><a href="home.html">首页</a></li>
+            <li><a href="home1.html">漫漫修仙</a></li>
+            <li><a href="life.html">生活杂烩</a></li>
+            <li><a href="shipin.html">记忆水晶</a></li>
+            <li><a href="loading.html">登录</a></li>
+            <li><a href="tuku.html">图库</a></li>
+            
+        </ul>
+    </div>
+
+</body>
+</html>

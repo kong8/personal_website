@@ -1,0 +1,541 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>孔清</title>
+<style type="text/css">
+body{
+	background:#FFF;
+	margin:0px;
+	}
+#wrap {
+	position:relative;
+    margin:0px auto;
+	width:1024px;
+	height:750px;
+}
+
+#logo {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:184px;
+	height:104px;
+}
+
+#shipin-02 {
+	position:absolute;
+	left:184px;
+	top:0px;
+	width:840px;
+	height:52px;
+}
+#shipin-02 ul {
+	width:300px;
+	height:50px;
+	list-style:none;
+}
+	
+#shipin-02 li {
+	margin:0px 10px;
+	padding:5px;
+	float:left;
+	font:16px 宋体;
+	text-align:center;
+	border:1px solid #666;}
+
+#shipin-02 li a:hover {color:#09F;}
+
+#shipin-03 {
+	position:absolute;
+	left:184px;
+	top:52px;
+	width:313px;
+	height:66px;
+}
+
+#leader1 {
+	position:absolute;
+	left:497px;
+	top:52px;
+	width:97px;
+	height:66px;
+	background:url(images/leader1.jpg);
+}
+
+#shipin-05 {
+	position:absolute;
+	left:594px;
+	top:52px;
+	width:38px;
+	height:66px;
+}
+
+#leader2 {
+	position:absolute;
+	left:632px;
+	top:52px;
+	width:97px;
+	height:66px;
+	background:url(images/leader2.jpg);
+}
+
+#shipin-07 {
+	position:absolute;
+	left:729px;
+	top:52px;
+	width:38px;
+	height:66px;
+}
+
+#leader3 {
+	position:absolute;
+	left:767px;
+	top:52px;
+	width:97px;
+	height:66px;
+	background:url(images/leader3.jpg);
+}
+
+#shipin-09 {
+	position:absolute;
+	left:864px;
+	top:52px;
+	width:160px;
+	height:66px;
+}
+
+#shipin-10 {
+	position:absolute;
+	left:0px;
+	top:104px;
+	width:184px;
+	height:14px;
+}
+
+#shipin-11 {
+	position:absolute;
+	left:0px;
+	top:118px;
+	width:128px;
+	height:632px;
+}
+
+#txt1 {
+	position:absolute;
+	left:128px;
+	top:118px;
+	width:196px;
+	height:129px;
+	background:url(images/txt1.jpg);
+	border-right:1px dotted #FFF;	
+}
+#tuku {
+	position:absolute;
+	left:325px;
+	top:118px;
+	width:597px;
+	height:516px;
+	background:url(images/shipin.jpg)
+}
+#tuku h1 {
+	margin-top:10px;
+	margin-left:10px;
+	font:24px 黑体;
+	color:#09F;
+	}
+#AD {
+	 width:300px;height:200px;
+     border:1px solid #888;
+     margin:20px auto;
+	 position:relative;}
+#AD img {
+	width:300px; height:200px; 
+	border:none;}
+#AD ul {
+	list-style-type:none;
+	margin:0; padding:0;
+    position:absolute;
+	right:0; bottom:0;}
+#AD ol {list-style-type:none;margin:0px;padding:0px;}
+#AD ul li {
+	border:1px solid #888;
+	border-radius:15px;
+    width:10px; height:10px;
+	color:#CCC;
+	background:rgba(0,51,0,.3);
+	text-align:center; line-height:30px;
+	float:left;
+    margin-right:5px; margin-bottom:5px;
+}
+#AD ol li {
+	border:1px solid #888;
+    border-radius:15px;
+	width:20px; height:20px;
+	color:#CCC;
+	font:12px 黑体;
+	background:rgba(0,51,0,.3);
+	text-align:center; line-height:30px;
+    float:left;}
+.hideprev{
+	position:absolute;
+	top:80px;
+	left:5px;
+	display:none;}
+.hidenext{
+	position:absolute;
+	top:80px;
+	right:5px;
+	display:none;}
+.showprev{
+	position:absolute;
+	top:80px;
+    left:5px;
+	display:block;}
+.shownext{
+	position:absolute;
+	top:80px;
+	right:5px;
+	display:block;}
+#AD ul li.moren{background:rgba(153,255,0,.5);}
+#dom {
+	width:530px;
+	height:200px;
+	background:rgba(255,255,255,.3);
+	margin-left:30px;}
+#dom ul {
+	list-style:none;
+	float:left;
+	margin:0px;
+	}
+#dom li{
+	margin-right:30px;
+	margin-top:30px;
+	font:16px 黑体;
+	color:#000;
+	}
+#dom img {
+	display:block;
+	float:left;
+	margin-right:30px;}
+#dom p {
+	color:#099;
+	font:16px 宋体;
+	display:block;
+	padding-top:80px;} 
+#shipin-14 {
+	position:absolute;
+	left:922px;
+	top:118px;
+	width:102px;
+	height:632px;
+}
+
+#txt2 {
+	position:absolute;
+	left:128px;
+	top:247px;
+	width:196px;
+	height:129px;
+	background:url(images/txt2.jpg);
+	border-right:1px dotted #FFF;
+}
+
+#txt3 {
+	position:absolute;
+	left:128px;
+	top:376px;
+	width:196px;
+	height:129px;
+	background:url(images/txt3.jpg);
+	border-right:1px dotted #FFF;
+}
+
+
+#txt4 {
+	position:absolute;
+	left:128px;
+	top:505px;
+	width:196px;
+	height:129px;
+	background:url(images/txt4.jpg);
+	border-right:1px dotted #FFF;
+}
+
+
+#shipin-18 {
+	position:absolute;
+	left:128px;
+	top:634px;
+	width:794px;
+	height:116px;
+}
+
+#leader1 h1,#leader2 h1,#leader3 h1 {
+	font:18px 黑体;
+	text-align:center;
+	margin-top:40px;
+	}
+a {
+	text-decoration:none;
+	color:#000;
+	}
+#leader1 a:hover,#leader2 a:hover,#leader3 a:hover {color:#FFF;}
+	
+p {font:16px 宋体;}
+#txt1 img,#txt2 img,#txt3 img,#txt4 img {
+	width:155px;
+	height:105px;
+	border:1px solid #09F;
+	margin:8px 15px;
+	}
+
+#jianyan {
+	width:100px;
+	height:120px;
+	border:1px solid #999;
+	margin:10px;}
+#jianyan img {
+	margin:5px;
+	}
+h3 {
+	font:18px 宋体;
+	text-align:center;
+	margin-top:0px;}
+h3 a:hover {color:#900;}
+#PopupAD { width:900px; height:400px;
+           border:1px solid #ccc; border-radius:5px;
+		   background:rgba(0,153,255,.3);
+		   position:absolute; top:50px; left:45px; text-align:center;
+		   display:none;}
+#PopupAD a { font:30px 微软雅黑; color:#FFF;
+             text-decoration:none;}	
+#PopupAD button { width:30px; height:30px; font-size:28px;
+                  text-align:center; line-height:28px;
+				  padding:1px 0 0 2px;
+				  border:1px solid #bbb; border-radius:3px;
+				  background:rgba(200,200,200,0.1);
+				  color:#fff; 
+				  position:absolute; right:5px; bottom:5px;}
+
+
+</style>
+<script type="text/javascript">
+	window.onload =
+	     function () {
+			 setTimeout( "document.getElementById('PopupAD').style.display = 'block';",1500 );
+		  document.getElementById("PopupAD").getElementsByTagName("button")[0].onclick=
+		     function () {
+				document.getElementById('PopupAD').style.display = 'none'; 
+			  }
+		  setTimeout( "document.getElementById('PopupAD').style.display = 'none';",8000 ); 
+		   var count = 1;
+		   var oImg = document.getElementById("ADimg");
+		   var oAd=document.getElementById("AD");
+		   var oA=oAd.getElementsByTagName("a")[0];
+		   oA.onmouseover=function () {
+		   document.getElementById("prev").className="showprev";
+		   document.getElementById("next").className="shownext";
+		   }
+		   oA.onmouseout=function () {
+		   document.getElementById("prev").className="hideprev";
+		   document.getElementById("next").className="hidenext";
+		   }
+		   document.getElementById("prev").onmouseover=function () {
+			   document.getElementById("prev").className="showprev";
+			   }
+		   document.getElementById("next").onmouseover=function () {
+			   document.getElementById("next").className="shownext";
+			   }
+		   var oLis=oAd.getElementsByTagName("li");
+		   oLis[0].onclick=function () {
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }
+			   oImg.src="images/tuku1.jpg";
+			   count=1;
+			   oLis[0].style.backgroundColor="rgba(153,255,0,.5)";
+			   };
+		   oLis[1].onclick=function () {
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }
+			   oImg.src="images/tuku2.jpg";
+			   count=2;
+			   oLis[1].style.backgroundColor="rgba(153,255,0,.5)";
+			   };
+		   oLis[2].onclick=function () {
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }
+			   oImg.src="images/tuku3.jpg";
+			   count=3;
+			   oLis[2].style.backgroundColor="rgba(153,255,0,.5)";
+			   };
+		   oLis[3].onclick=function () {
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }
+			   oImg.src="images/tuku4.jpg";
+			   count=4;
+			   oLis[3].style.backgroundColor="rgba(153,255,0,.5)";
+			   };
+		   oLis[4].onclick=function () {
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }
+			   oImg.src="images/tuku5.jpg";
+			   count=5;
+			   oLis[4].style.backgroundColor="rgba(153,255,0,.5)";
+			   };
+		   oLis[5].onclick=function () { 
+		       count--;	
+			   if (count==0) {count=5;};
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }		
+			   oImg.src= "images/tuku" +count+".jpg";
+			   oLis[count-1].style.backgroundColor="rgba(153,255,0,.5)";
+			   };
+		   oLis[6].onclick=function () { 
+		       count++;
+			   if (count==6) {count=1;};
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }		
+			   oImg.src= "images/tuku" +count+".jpg";
+			   oLis[count-1].style.backgroundColor="rgba(153,255,0,.5)";
+			   };				   
+		   var timer01 =setInterval (function () {
+			   count++;
+			   if (count ==6) {count = 1};
+			   for (i=0;i<oLis.length;i++){
+			   oLis[i].style.backgroundColor="rgba(0,51,0,.3)";
+			   }
+			   oImg.src= "images/tuku" +count+".jpg";
+			   oLis[count-1].style.backgroundColor="rgba(153,255,0,.5)";
+			   },"5000"); // alert("页面加载了");	 
+var gallery = document.getElementById("imagegallery");
+var links = gallery.getElementsByTagName("a")
+for (var i = 0; i < links.length; i++){
+	links[i].onclick =function()  {
+		return showPic(this) ? false : true;
+	    } 
+    }
+function showPic(whichpic){
+	if (!document.getElementById("placeholder")) return false;
+	var source = whichpic.getAttribute("href");
+	var placeholder = document.getElementById("placeholder");
+	if (placeholder.nodeName !="IMG") return false;
+	placeholder.setAttribute("src",source);
+	if (document.getElementById("description")) {
+		var text = whichpic.getAttribute("title") ?whichpic.getAttribute("title") : "";
+		var description = document.getElementById("description");
+		if (description.firstChild.nodeType == 3) {
+			description.firstChild.nodeValue =text;
+		}
+	}
+	return true;
+}			   
+		}
+		
+</script>
+
+</head>
+<body>
+
+<div id="wrap">
+	<div id="logo">
+		<img src="images/logo.jpg" alt="logo">
+	</div>
+	<div id="shipin-02">
+	  <ul>
+            <li><a href="home.html">首页</a></li>
+            <li><a href="loading.html">登录</a></li>
+        </ul>
+	</div>
+	<div id="shipin-03">
+		<img src="images/shipin_03.jpg">
+	</div>
+	<div id="leader1">
+		<h1><a href="home1.html" >漫漫修仙路</a></h1>
+	</div>
+	<div id="shipin-05">
+		<img src="images/shipin_05.jpg">
+	</div>
+	<div id="leader2">
+		<h1><a href="life.html">生活大杂烩</a></h1>
+	</div>
+	<div id="shipin-07">
+		<img src="images/shipin_07.jpg">
+	</div>
+	<div id="leader3">
+		<h1><a href="shipin.html" class="moren">记忆水晶</a></h1>
+	</div>
+	<div id="shipin-09">
+		<img src="images/shipin_09.jpg">
+	</div>
+	<div id="shipin-10">
+		<img src="images/shipin_10.jpg">
+	</div>
+	<div id="shipin-11">
+		<img src="images/shipin_11.jpg">
+	</div>
+	<div id="txt1">
+		<a href="tuku.html"><img src="images/touxiang0.jpg" width="150" height="100" alt="tree"></a>
+	</div>
+	<div id="tuku">
+        <h1>图库</h1>
+	    <div id="AD"> 
+            <a href="#"><img id="ADimg" src="images/tuku1.jpg"/> </a>
+        <ul>
+        <li class="moren"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+        <ol>
+        <li id="prev" class="hideprev"><<</li>
+        <li id="next" class="hidenext">>></li>
+        </ol>       
+    </div>
+    <div id="dom">
+    <ul id="imagegallery">
+        <li><a href="images/tuku01.jpg" title="妹子" >校园风景</a></li>
+        <li><a href="images/tuku02.jpg" title="lala" >日常</a></li>
+        <li><a href="images/tuku03.jpg" title="萌妹子" >游记</a></li>
+     </ul>   
+    <img id="placeholder" src="images/tuku04.jpg" width="200" height="200" alt="睡觉"/>
+    <p id="description">选张图</p>
+    </div>
+    </div>
+	<div id="shipin-14">
+		<div id="jianyan">
+	        <img src="images/dong.gif" width="80" height="80" alt="dong">
+            <h3><a href="jianyan.html">课程建言</a></h3>
+      </div>
+	</div>
+	<div id="txt2">
+		<a href="tuku.html"><img src="images/touxiang2.jpg" width="150" height="100" alt="fish"></a>
+	</div>
+	<div id="txt3">
+        <a href="tuku.html"><img src="images/touxiang3.jpg" width="150" height="100" alt="sun"></a>
+    </div>
+	<div id="txt4">
+        <a href="tuku.html"><img src="images/touxiang4.jpg" width="150" height="100" alt="animals"></a>
+    </div>
+	<div id="shipin-18">
+		<img src="images/shipin_18.jpg">
+	</div>
+    <div id="PopupAD">
+       <p>
+          <img src="images/tanchu.png"><br>
+          <a href="#">欢迎进入图库.....</a>
+       </p>
+       <button>&times;</button>
+    </div>   
+
+</div>
+</body>
+</html>

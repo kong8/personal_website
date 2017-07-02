@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+*{margin:0px;}
+#wrap {
+	position:relative;
+	width:1024px;
+	height:768px;
+	margin:0px auto;
+}
+
+#bgh {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:582px;
+	height:768px;
+}
+
+#loading {
+	position:absolute;
+	left:582px;
+	top:0px;
+	width:378px;
+	height:768px;
+	background:url(images/loading.jpg);
+}
+#loading h1 {
+	font:32px 宋体;
+	color:#fff;
+	text-align:center;
+	margin-top:70px;
+	position:relative;
+	}
+
+.ma{
+	width:260px;
+	height:50px;
+	margin-left:60px;
+	margin-top:40px;
+	background:rgba(0,102,102,.3);
+	border:0px;
+	border-radius:5px;
+	color:#FFF;
+	font:20px 宋体;
+	} 
+#tishi{
+	width:100px;
+    height:20px;
+	color:#FFF;}
+#che {
+	margin-left:60px;
+	font:15px 宋体;
+	margin-top:20px;
+	}
+	
+#load button {
+	width:60px;
+	height:30px;
+	background:#FFF;
+	color:#CCC;
+	font:18px 宋体;
+	border:0px;
+	border-radius:5px;
+	margin-left:250px;
+	margin-top:20px;
+	}
+	
+#load a {
+	display:block;
+	width:100px;
+	height:30px;
+	text-decoration:none;
+	color:#FFF;
+	font:16px 宋体;
+	margin-left:60px;
+	margin-top:30px;
+	}
+#msg {
+	width:130px;
+	height:14px;
+	border:1px solid #F00;
+	background:#FF0;
+	font:10px 微软雅黑;
+	color:#F00;
+	text-align:center;
+	border-radius:5px;
+	position:absolute;
+	left:70px;
+	top:290px;
+	display:none;
+	}
+#bgf {
+	position:absolute;
+	left:960px;
+	top:0px;
+	width:64px;
+	height:768px;
+}
+</style>
+<script type="text/javascript">
+window.onload =	function (){
+	var oche = document.getElementById("che");
+	var omg = document.getElementById("msg");
+	oche.onclick = function () {	
+		if (oche.checked) {
+			omg.style.display="block";
+			}else{
+				omg.style.display="none";
+				}
+				}
+		}
+</script>
+</script>
+</head>
+<body>
+<div id="wrap">
+	<div id="bgh">
+		<img src="images/bgh.jpg" width="582" height="768" alt="">
+	</div>
+	<div id="loading">
+			<h1>游客登录</h1>
+        <form action="#" method="post" id="load">
+        <input type="text" placeholder="用户名" class="ma"/><br/>
+        <input type="password" placeholder="密码" class="ma"/><br/>                
+        <label id="tishi" >
+            <input type="checkbox" id="che"/>记住密码</br>
+        </label>
+        <button type="submit" id="" />登录</button><br/>
+        <a href="home1.html">>>返回</a>
+        </form>
+        <div id="msg">
+         建议不要在公共场所选择。
+        </div>	
+	</div>
+	<div id="bgf">
+		<img src="images/bgf.jpg" width="64" height="768" alt="">
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+
+<style type="text/css">
+*{
+	margin:0px;
+	padding:0px;
+}
+#wrap {
+	width:1024px;
+	height:750;
+	margin:0px auto;
+	position:relative;}
+#countTime{
+	width:400px;
+	height:100px;
+	background:rgba(153,153,153,.2);
+	position:absolute;
+	top:250px;
+	left:300px;}
+h1 {
+	font:32px bold 宋体;
+	color:#000;
+	text-align:center;
+	margin-top:10px;	
+	}
+p {
+	font:16px 宋体;
+	color:#FFF;
+	text-align:center;
+	margin-top:15px;
+	}
+#show {
+	color:#F00;
+	}
+</style>
+<script type="text/javascript">
+     var t=4; 
+     setInterval("refer()",1000);
+     function refer(){
+		 if(t==0){ 
+         location="home1.html";
+         } 
+         document.getElementById('show').innerHTML=t;
+         t--; 
+}  
+</script>
+</head>
+
+<body>
+<div id="wrap">
+    <img src="images/1.jpg">
+    <div id="countTime">
+        <h1>欢迎进入孔清的个人网站</h1>
+        <p>即将跳转主页,还剩<span id="show">5</span>秒</p>
+    </div>
+</div>
+</body>
+</html>
